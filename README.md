@@ -4,7 +4,7 @@
 
 ## Alunos integrantes da equipe
 
-* Vitor Alexandre Amaral
+* Vitor Alexandre Moreira Amaral
 * Pedro Henrique Bellone Souza e Silva
 * Pedro Henrique Gaioso de Oliveira
 
