@@ -1,6 +1,6 @@
-# [Nome do projeto]
+# MindMate
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+Site projetado para ajudar a detectao e facilitar a vida de pessoas com alzheimer.
 
 ## Alunos integrantes da equipe
 
