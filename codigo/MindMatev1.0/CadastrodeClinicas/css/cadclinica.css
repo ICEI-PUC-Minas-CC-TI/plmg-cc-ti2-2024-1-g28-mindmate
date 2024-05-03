@@ -1,0 +1,98 @@
+body{
+  background: linear-gradient(90deg, #ECD690 0%, #f8be00 100%);
+}
+
+.navbar{
+  background-color: #00DDFF;
+}
+
+ #map {
+  height: 65%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+.custom-map-control-button:hover {
+  background: rgb(235, 235, 235);
+}
+
+.btn {
+  margin: 10px 0 0 0;
+  cursor: pointer;
+
+  font-size: 1em;
+  border: none;
+  padding: 10px 15px;
+  line-height: 18px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: baseline;
+  background: #075da8;
+  color: #ECD690;
+  text-decoration: none !important;
+  display: inline-block;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.container{
+  max-width: 930px;
+  width: 100%;
+  overflow: visible;
+  background: #00DDFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.container .forms{
+  display: flex;
+  align-items: center;
+  height: 440px;
+  width: 200%;
+  transition: height 0.2s ease;
+}
+
+.form-control {
+  background-color:  #ff914c!important;
+  color: white
+}
+
+.form-control input{
+  color: white;
+}
+
+footer{
+  background-color: #00DDFF;
+}
+
+#placa{
+  width: 200px;
+}
+
+.table th{
+  color: white;
+}
+

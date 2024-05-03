@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+background-color: #00DDFF;
+}
+.seta {
+width: 70px;
+height: 70px;
+}
+.title {
+    font-size: 30px;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+header div {
+    width: 33%;
+}
+header h1 {
+    text-align: center;
+    width: 100%;
+}
+.games {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ECD690;
+    box-shadow: 10px  10px black;
+    margin: 35px;
+}
+.games img {
+    width: 150px;
+}
+.games h2 {
+    font-size: 50px;
+}
+.f {
+position: fixed;
+width: 1150px;
+height: 400px;
+background-color: #c4ae67;
+z-index: 1;
+top: calc(50% - 200px);
+left: calc(50% - 575px);
+border: 2px solid black;
+border-radius: 12px;
+padding: 10px;
+display: none;
+}
+.button {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.seila {
+    font-size: 40px;
+}
+
