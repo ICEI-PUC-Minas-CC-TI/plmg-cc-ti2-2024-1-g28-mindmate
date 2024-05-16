@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../../../MindMatev1.0/Homepage/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e9d38f7c47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Edição de perfil</title>
+    <link rel="stylesheet" href="edicao_perfil.css">
+   
+</head>
+ 
+<nav class="navbar">
+    <div class="container-fluid">
+      <div>
+      <a class="text-white" href="../../../MindMatev1.0/Homepage/index1.html"><button style="background-color: #00DDFF; color: white; border: none;"><i class="fa-solid fa-house-chimney fa-2x"></i></a>
+      </button>
+    </div>
+      <div class="row mx-auto d-flex justify-content-center">
+        <img class="img-fluid" src="copia titulo.png" alt="Logo do MindMate">
+      </div>
+      <div class="d-flex justify-content-end">
+        <a class="text-white m-3" href="../../../MindMatev1.0/CadastrodeClinicas/cadastroclinicas.html"><button style="background-color: #00DDFF; color: white; border: none;"><i class="fa-solid fa-clinic-medical fa-2x"></i></a>
+        <a class="text-white m-3" href="../../../MindMatev1.0/Sprint 3/edicao de perfil/edicao_perfil.html"><i class="fa-solid fa-user fa-2x"></i></a>
+        <a class="text-white m-3" href="../../../MindMatev1.0/Canal Comunicacao/Canal de comunicacao/index.html"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
+      </div>
+    </div>
+  </nav>
+
+
+ 
+<body style="background-color: #ECD690;">
+    <div class="container">
+      <div class="card">
+        <h1>Alterar dados</h1>
+
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
+        <div class="label-float">
+          <input type="text" id="nome" placeholder=" " required />
+          <label id="labelNome" for="nome">Nome</label>
+        </div>
+        
+        <div class="label-float">
+          <input type="text" id="email" placeholder=" " required />
+          <label id="labelemail" for="email">E-mail</label>
+        </div>
+
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder=" " required />
+          <label id="labelUsuario" for="usuario">Novo usuário</label>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" placeholder=" " required />
+          <label id="labelSenha" for="senha">Nova senha</label>
+          <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="confirmSenha" placeholder=" " required />
+          <label id="labelConfirmSenha" for="confirmSenha"
+            >Confirmar Senha</label
+          >
+          <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="justify-center">
+          <button onclick="cadastrar()">Atualizar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="edicao_perfil.js"></script>
+
+
+</body>
+</html>

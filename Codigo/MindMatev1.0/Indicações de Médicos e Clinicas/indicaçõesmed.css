@@ -1,0 +1,28 @@
+ .navbar {
+      background-color: #00DDFF;
+     }
+  h2 {
+    color: #00DDFF;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  #medicos {
+    background-color: #ECD690;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #clinicas {
+    background-color: #ECD690;
+    padding: 10px;
+  }
