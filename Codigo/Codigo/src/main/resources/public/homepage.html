@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/homepage.css">
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/e9d38f7c47.js" crossorigin="anonymous"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  
+  <title>Homepage</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div>
+      <a class="text-white" href="homepage.html"><button style="background-color: #00DDFF; color: white; border: none;"><i class="fa-solid fa-house-chimney fa-2x"></i></a>
+      </button>
+    </div>
+      <div class="row mx-auto d-flex justify-content-center">
+        <img class="img-fluid" src="image/logodosite.png" alt="Logo do MindMate">
+      </div>
+      <div class="d-flex justify-content-end">
+        <a class="text-white m-3"><button id="button_logout" type="button" style="background-color: #00DDFF; color: white; border: none;"><i class="fa-solid fa-sign-out fa-2x"></i></button></a>
+        <a class="text-white m-3" href="edicao_perfil.html"><i class="fa-solid fa-user fa-2x"></i></a>
+        <a class="text-white m-3" href="canal_de_comunicacao.html"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+  <div class="row mt-5">
+    <div class="col-md-4 col-12">
+      <div class="card mb-3 purple-card" style="width: auto;">
+        <img class="mx-auto p-2 card-img-top" style="width: 100px;" src="image/prancheta.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">FAÇA O TESTE!</h5>
+          <p class="card-text">Faça o teste que irá definir seu grau de Alzheimer <span class="text-warning">grátis!</span></p>
+        </div>
+        <div class="card-footer">
+          <a href="quizAlzheimer.html" class="btn btn-warning text-light">Clique aqui e faça agora!</a>
+        </div>
+      </div>
+    </div>
+<div class="col-md-4 col-12">
+  <div class="card mb-3 purple-card" style="width: auto;">
+    <img class="mx-auto p-2 card-img-top" style="width: 100px;" src="image/cerebro.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">AI INTELLIGENCE</h5>
+      <p class="card-text">Após fazer seu teste gratuito, venha ver o seu diagnostico ultilizando nossa IA. Basta Clicar em uploud e enviar a foto do cerebro do paciente.</p>
+    </div>
+    <div class="card-footer">
+      <a href="/static/IA.html" class="btn btn-warning text-light">Clique aqui e faça agora!</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  </main>
+
+  <footer>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="row mx-auto d-flex justify-content-center">
+          <div class="col-md-6 col-12">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid" style="width: 50px;" src="image/maocoracao.png" alt="Logo do MindMate">
+                <p style="font-weight: bold; margin-left: 10px;">AQUI NOS PREOCUPAMOS COM SEU BEM-ESTAR</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <p style="font-weight: bold;">MANDE UM E-MAIL: CONTATOMINDMATE@GMAIL.COM</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+  
+  <script>
+    document.getElementById('button_logout').addEventListener('click', function() {
+      setTimeout(function() {
+        localStorage.clear();
+        window.location.href = "index.html";
+      }, 500); 
+    });
+
+    const isLogged = localStorage.getItem('isLoggedIn');
+    if (!isLogged) {
+      alert("Nenhuma conta está logada.");
+      setTimeout(function() {
+        window.location.href = "index.html";
+      }, 500);
+    }
+
+  </script>
+
+</body>
+</html>

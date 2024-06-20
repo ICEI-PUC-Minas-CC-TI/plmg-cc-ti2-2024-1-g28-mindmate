@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e9d38f7c47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>MindMate</title>
+</head>
+<header>
+    <div class="containernav" style="background-color: #00DDFF;">
+        <div class="row"> 
+            <nav class="navbar">
+                <a class="navbar-brand" href="#"></a>
+                <div class="mx-auto">
+                    <img src="image/logomarca_mindmate-removebg-preview.png" alt="Logo MindMate" style="margin-bottom: 30px;">
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<body style="background-color: #ECD690;">
+    <div class="container">
+        <div class="card">
+            <h1><strong>Entrar</strong></h1>
+            <div id="msgError"></div>
+            <form id="login-form">
+                <div class="label-float">
+                    <input type="text" id="usuario" placeholder="" required />
+                    <label id="userLabel" for="usuario">Email</label>
+                </div>
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder="" required />
+                    <label id="senhaLabel" for="senha">Senha</label>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+                <div class="justify-center">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+                <div class="justify-center">
+                    <hr />
+                </div>
+            </form>
+            <p>
+                Não tem uma conta?
+                <a href="cadastro.html">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
