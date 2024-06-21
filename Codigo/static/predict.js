@@ -58,7 +58,7 @@ $("#predict-button").click(async function () {
     // Check if the probability of Alzheimer's is greater than 0.000001
     let alzheimerMessage = "";
     if (top5.some(p => p.className === 'Alzheimer' && p.probability > 0.000001)) {
-        alzheimerMessage = "Você possui Alzheimer, favor procurar um médico";
+        alzheimerMessage = "Traços de Alzheimer encontrados na sua radiografia cerebral, procure um medico.";
     } else {
         alzheimerMessage = "Nenhum traço de Alzheimer encontrado";
     }
