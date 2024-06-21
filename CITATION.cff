@@ -1,31 +1,26 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: MindMate
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Bellone Souza e Silva
+    given-names: Pedro Henrique 
+  - family-names: Gaioso de Oliveira
+    given-names: Pedro Henrique
+  - family-names: Moreira Amaral
+    given-names: Vitor Alexandre
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Amy Saldanha Rivero
+    given-names: Ilo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Freitas Diniz
+    given-names: Luciana Mara
 keywords:
-  - 
-  - 
-repository-code: 
+  - Saúde
+  - Inteligencia Artificial
+  - Médico
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti2-2024-1-g28-mindmate
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-06-21
