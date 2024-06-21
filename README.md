@@ -2,6 +2,9 @@
 
 Site projetado para ajudar a detectao e facilitar a vida de pessoas com alzheimer.
 
+Link do video de apresentação :
+https://www.youtube.com/watch?v=q6V3_rVC_EQ
+
 ## Alunos integrantes da equipe
 
 * Vitor Alexandre Moreira Amaral
